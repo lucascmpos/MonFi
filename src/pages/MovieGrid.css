@@ -1,0 +1,72 @@
+.container .title{
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem 0 1rem;
+}
+
+.title .query-text{
+    color: purple;
+
+}
+
+.movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.movies-container div{
+    width: 30%;
+    color: white;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgb(2,0,36);
+background: linear-gradient(117deg, rgba(2,0,36,1) 0%, rgba(80,42,96,1) 51%, rgba(98,7,103,1) 100%);
+    padding: 1rem;
+}
+
+.movies-container div img {
+    max-width: 100%;
+
+}
+
+.movies-container div img,
+.movies-container div h2,
+.movies-container div p {
+    margin-bottom: 1rem;
+}
+
+.movies-container div svg{
+    color: rgb(228, 187, 7)
+}
+
+.movies-container div a{
+    background-color: rgb(228, 187, 7);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    color: black;
+    padding: .1rem 0.5rem;
+    align-items: center;
+    cursor: pointer;
+    transition: .4s;
+    text-align: center;
+    font-weight: bold;
+}
+
+.movies-container div a:hover{
+    background-color: black;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    color: purple;
+    font-size: 1.3rem;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: .4s;
+}

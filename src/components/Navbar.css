@@ -3,7 +3,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: rgb(10, 10, 10)
+    background: rgb(20, 2, 32);
+background: linear-gradient(90deg, rgb(22, 6, 34) 0%, rgb(22, 24, 9) 57%, rgb(24, 3, 39) 100%);
 }
 
 #navbar h2 a {
